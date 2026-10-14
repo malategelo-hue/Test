@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrightPath Studio</title>
+    <meta name="description" content="A simple modern landing page for a creative studio." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">BrightPath</div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-small" href="#contact">Book a call</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Creative growth partner</span>
+            <h1>We build memorable digital experiences.</h1>
+            <p>
+              BrightPath helps brands grow with thoughtful strategy, modern design,
+              and conversion-focused websites that feel as good as they perform.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#contact">Get started</a>
+              <a class="button button-secondary" href="#work">See our work</a>
+            </div>
+            <ul class="hero-metrics" aria-label="Highlights">
+              <li><strong>120+</strong><span>projects launched</span></li>
+              <li><strong>4.9/5</strong><span>client rating</span></li>
+              <li><strong>2x</strong><span>average conversion lift</span></li>
+            </ul>
+          </div>
+          <div class="hero-card" aria-label="Project preview card">
+            <div class="card-window">
+              <div class="window-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="window-content">
+                <div class="chart-bars">
+                  <span style="height: 40%"></span>
+                  <span style="height: 62%"></span>
+                  <span style="height: 55%"></span>
+                  <span style="height: 82%"></span>
+                  <span style="height: 96%"></span>
+                </div>
+                <div class="stat-row">
+                  <div>
+                    <small>Revenue</small>
+                    <strong>$84k</strong>
+                  </div>
+                  <div class="trend up">+28.4%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">What we do</span>
+            <h2>Strategy, design, and results.</h2>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <div class="icon">⚡</div>
+              <h3>Brand Strategy</h3>
+              <p>Audience insight, positioning, and the story that makes your business stand out.</p>
+            </article>
+            <article class="card">
+              <div class="icon">🎨</div>
+              <h3>Web Design</h3>
+              <p>Clear layouts, beautiful interfaces, and memorable experiences built for trust.</p>
+            </article>
+            <article class="card">
+              <div class="icon">📈</div>
+              <h3>Growth Marketing</h3>
+              <p>Landing pages and campaigns tailored to attract, convert, and retain customers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section alt">
+        <div class="container about-grid">
+          <div>
+            <span class="eyebrow">Why us</span>
+            <h2>Small teams, big thinking.</h2>
+          </div>
+          <p>
+            We partner with founders and teams who want a website that feels premium,
+            speaks clearly, and turns attention into action. Every decision is grounded in
+            your goals and backed by real user insight.
+          </p>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Selected work</span>
+            <h2>Helping brands move faster.</h2>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio-item accent-one">
+              <span>Northstar Labs</span>
+              <strong>Brand refresh + funnel redesign</strong>
+            </div>
+            <div class="portfolio-item accent-two">
+              <span>Harbor & Co.</span>
+              <strong>E-commerce experience overhaul</strong>
+            </div>
+            <div class="portfolio-item accent-three">
+              <span>Summit Health</span>
+              <strong>Conversion-focused landing pages</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <div class="brand">BrightPath</div>
+          <p>Designing digital experiences that unlock momentum.</p>
+        </div>
+        <a class="button" href="mailto:hello@brightpath.example">hello@brightpath.example</a>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> BrightPath Studio</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
